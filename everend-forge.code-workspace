@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "name": "Portal",
+      "path": "."
+    },
+    {
+      "name": "Spec",
+      "path": "../spec"
+    },
+    {
+      "name": "WorldNotion",
+      "path": "../worldnotion"
+    },
+    {
+      "name": "PathBranching",
+      "path": "../pathbranching"
+    },
+    {
+      "name": "Plugins",
+      "path": "../plugins"
+    }
+  ],
+  "settings": {}
+}
