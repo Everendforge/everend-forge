@@ -15,10 +15,10 @@ The suite is built around an open format rather than a single app. Canon lives i
 
 ## Repositories
 
-- [spec](https://github.com/SoleipDreams/spec): shared contracts for vaults, branching graphs, runtime packages, and validation reports.
-- [worldnotion](https://github.com/SoleipDreams/worldnotion): desktop worldbuilding vault app.
-- [pathbranching](https://github.com/SoleipDreams/pathbranching): visual branching narrative editor.
-- [plugins](https://github.com/SoleipDreams/plugins): runtime plugin coordination and engine adapter roadmap.
+- [spec](https://github.com/Everendforge/spec): shared contracts for vaults, branching graphs, runtime packages, and validation reports.
+- [worldnotion](https://github.com/Everendforge/worldnotion): desktop worldbuilding vault app.
+- [pathbranching](https://github.com/Everendforge/pathbranching): visual branching narrative editor.
+- [plugins](https://github.com/Everendforge/plugins): runtime plugin coordination and engine adapter roadmap.
 
 ## Principles
 

@@ -1,6 +1,6 @@
 # Governance
 
-Everend Forge is currently stewarded by SoleipDreams.
+Everend Forge is currently stewarded in the Everendforge GitHub organization, with SoleipDreams as the founding steward.
 
 Early governance is intentionally lightweight:
 
