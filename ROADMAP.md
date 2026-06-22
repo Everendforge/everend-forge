@@ -34,6 +34,22 @@
 - Emit events.
 - Save/load runtime state.
 
+## 0.5 Beta Suite Preparation
+
+- Keep WorldNotion and PathBranching useful as standalone apps.
+- Expose stable public app components for future suite mounting.
+- Keep shared universe files portable and versioned through Everend Spec.
+- Confirm PathBranching can read the same universe folder WorldNotion edits.
+- Avoid coupling the future suite to private React state or private Tauri command details.
+
+## 0.6 Everend Forge Suite Shell
+
+- Convert the portal into a Tauri + React suite app while preserving documentation.
+- Mount WorldNotion as the World workspace page.
+- Mount PathBranching as the Branch workspace page.
+- Share one active universe folder across both pages by default.
+- Pin WorldNotion and PathBranching by compatible version or commit when integrating, rather than tracking moving development branches automatically.
+
 ## Later
 
 - Godot plugin.

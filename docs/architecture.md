@@ -24,3 +24,18 @@ Markdown Vault
   -> PathBranching exports runtime package
   -> Engine plugins import and execute runtime package
 ~~~
+
+## Future suite shell
+
+Everend Forge will remain contract-first while gaining a suite shell after the authoring apps reach beta stability. The shell should be a Tauri + React desktop app that mounts WorldNotion and PathBranching as internal workspace pages instead of replacing either app.
+
+The intended first pages are:
+
+- World: WorldNotion's Markdown vault and canon workspace.
+- Branch: PathBranching's branching narrative graph workspace.
+
+The shell should share one active universe folder by default. WorldNotion remains responsible for editing canon Markdown, while PathBranching reads that canon and writes branching metadata under `.everend/.pathbranching`.
+
+Suite integration must depend on public app exports and stable file/runtime contracts. It should not read private React state, depend on private Tauri command internals, or require the standalone WorldNotion and PathBranching apps to stop working.
+
+Until both apps have beta-quality public integration surfaces, `everend-forge` should document and coordinate this direction rather than importing live source from moving development branches.
